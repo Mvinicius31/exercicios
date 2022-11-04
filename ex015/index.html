@@ -1,0 +1,73 @@
+2<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro siti.</title>
+    <link rel="shortcut icon" href="f1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Olá, sejá bem vindo ao meu primeiro site.</h1>
+    <hr>
+    <P style="text-align: right;" >Para me cohecer melhor só da um quique <a href="pagina02.html">aqui!</a></P>
+    <p>Ainda estou sem ideia para o conteudo da pagina</p>
+    <h2>Vou colocar meus primeiros pacos para me interessar por HTML.</h2>
+    <ol>
+        <li>Fiz um cursinho completo.</li> 
+        <ol type="I">             
+            <li>Exel</li>
+            <li>Word</li>
+            <li>PowerPoint</li>
+        </ol>
+    </ol>
+    
+    <img src="m.jpg" alt="Pacotes Office" width="650">
+    <ol start="2">
+     <li>Depois fiz um cursinhos mais completo, clicando nos nomes você conhecerar alguns comandos.</li>
+     <ol type="I">
+        <li><a href="pagina003.html">HTML</a></li>
+        <li>CSS</li>
+        <li>PHP</li>
+        <li>JavaScript</li>
+     </ol>
+    </ol>
+    <img src="6500.jpg" alt="HTML...">
+    <h2>Imagens dinâmica</h2>
+    <p>Ente abrir esse site em vários dispositivos diferrentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <Picture>
+        <source media="(max-width: 750px)" srcset="imagens/300.jpg" type="image/"png>
+        <source media="(max-width: 1050px)" srcset="imagens/600.jpg" type="image/png">
+        <img src="imagens/1000.jpg" alt="imagen grande">
+    </Picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/50.mp3" controls autoplay></audio>
+    <!--MP3 WAV OGG-->
+    <p>Melhor forma</p>
+    <audio preload="metadata" autoplay controls lopp> <!--lopp Não recomendado-->
+        <source src="midia/beg.mp3" type="audio/mpeg">
+        <source src="midia/50.mp3" type="audio/mpeep">
+
+    </audio>
+
+    <h2>Videos com HTML5, Inserindo vídeos hospedados localmente</h2>
+    <p>Este vídeo hospedado no meu próprio servidor.</p>
+    <video src="videos/video.mp4" width="300" controls></video>
+
+    <h2>Melhor jeito de colocar video</h2>
+    <video controls width="300" poster="imagens/300.jpg"> 
+        <source src="videos/video.mp4" type="video/mp4">
+        <source src="videos/Video.m4v" type="video/mp4">
+        <source src="videos/Video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+
+    </video>
+
+    <h2>Inserindo videos do YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6YyPLXSLixc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p><a href="pagina02.html"Ir para a página 2></a></p>
+</body>
+</html>
